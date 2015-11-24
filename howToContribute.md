@@ -1,5 +1,5 @@
 #Contribute to the WWCNYC Algorithms group!
-This repo and these events are curated, crafted, and cared for by woman-identified coders like you. You should probably get involved, since I hear all the cool kids are doing it.
+This repo and these events are curated, crafted, and cared for by coders like you. We are actively looking for new contributors who identify as women, trans, or genderqueer, who can help share their knowledge of programming with others. If this sounds like you, read on!
 
 ## Things we LOVE:
 * `New problems!` They should be language agnostic, vary widely in difficulty, and should take between 5-20 minutes to complete. We aim to have about 6 problems per event, with level 1 being the easiest and level 6 being the hardest. If you submit a problem, please consider submitting one solution as well in either pseudo code or the language of your choice.
@@ -9,14 +9,17 @@ This repo and these events are curated, crafted, and cared for by woman-identifi
 * `Free resources!` They go in our [main readme](./README.md)
 
 ## Got a good `problem`? Maybe a sweet `solution`?
-Follow these steps to contribute your favorite solution in whatever language you love:
-
-1. Fork the repository and clone it locally
-2. Create a branch
-3. Add and commit your changes.
-4. Push that branch to your clone on github
-5. Make a pull request with your branch to the WWC branch
-6. Let one of the volunteers know that you made a PR and one of us will review it and merge it as soon as we can!
+Checkout our latest and greatest [GitGuide](./gitGuide.md) to walk you through submitting your first pull request with your contribution!
+Take note! At the moment we generally structure and namespace our files like so:
+```
+Algorithms(top folder)
+  -October-22-2015(Folder, named by the date of event)
+    -Problem1.md (mark down files with descriptions of the problems with 1 being easiest)
+    -Solutions (Folder)
+      -Problem1.js (solution files are named by problem number with different language extensions)
+      -Problem1.rb
+```
+It'd be cool if you can do the same. But if not we will work with what we got.
 
 ## New to git?
 Git and Github allow us to collaborate on projects without ever worrying about losing our work (or our minds). Think google docs but with better version control.
